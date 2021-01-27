@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Proyecto uno",
+    "description": "Descripción 1",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Keras_logo.svg/1024px-Keras_logo.svg.png",
+    "url": ""
+  },
+  {
+    "title": "Proyecto 2",
+    "description": "Descripción 2",
+    "img": "https://pytorch.org/assets/images/pytorch-logo.png",
+    "url": ""
+  },
+  {
+    "title": "Proyecto 3",
+    "description": "Descripción 3",
+    "img": "https://miro.medium.com/max/4000/1*pJm1NTQ-DCJvsLvo03idZQ.png",
+    "url": ""
+  }
+]
