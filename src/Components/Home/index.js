@@ -8,6 +8,10 @@ const { Header, Content, Footer } = Layout;
 const Home = () => {
   const [actualKey, setKey] = useState(1);
   console.log(Projects);
+
+  const updateKey = (value) => {
+    setKey(value.key);
+  };
   return (
     <Layout>
       <Header style={{ position: "fixed", zIndex: 1, width: "100%" }}>
@@ -17,8 +21,12 @@ const Home = () => {
           mode="horizontal"
           defaultSelectedKeys={[actualKey.toString()]}
         >
-          <Menu.Item key="1">Home</Menu.Item>
-          <Menu.Item key="2">About us</Menu.Item>
+          <Menu.Item key="1" onClick={(key) => updateKey(key)}>
+            Home
+          </Menu.Item>
+          <Menu.Item key="2" onClick={(key) => updateKey(key)}>
+            About us
+          </Menu.Item>
         </Menu>
       </Header>
       <Content
